@@ -1,0 +1,186 @@
+/* General style configurations. */
+img {
+  position: absolute;
+}
+
+/* floor and building style configurations. */
+.floor {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  height: 20%;
+  width: 100%;
+}
+
+/* Main Character style configurations. */
+#defenderPhotos {
+  height: 120px;
+  width: 120px;
+  z-index: 4;
+}
+
+/* Lose screen style configurations. */
+.lose-div {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+  transition: all 5s;
+  text-align: center;
+  font-size: 58px;
+  color: white;
+  top: 0;
+  left: 0;
+}
+
+.lose-title {
+  margin-top: 200px;
+}
+
+.retry {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(38, 97, 206, 0.8);
+  background-color: rgba(38, 97, 206, 0.4);
+}
+
+.lose-image {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 40%;
+}
+
+/* Speaker icon style configurations. */
+.speaker{
+  right: 250px;
+}
+
+/* Timer style configurations. */
+.divTimer {
+  background: rgba(33, 34, 34, 0.9);
+  color: white;
+  position: absolute;
+  z-index: 5;
+  top: 35px;
+  right: 20px;
+  font-size: 26px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  border-radius: 24px;
+  width: 180px;
+  height: 40px;
+  padding-left: 40px;
+}
+
+.divTimer p {
+  margin: 12px auto 5px;
+}
+
+/* Win screen style configurations. */
+.win-div {
+  background-color: rgba(136, 138, 156, 0.48);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  transition: all 5s;
+  text-align: center;
+  font-size: 58px;
+  color: white;
+  top: 0%;
+  left: 0%;
+}
+
+.win-title {
+  margin-top: 150px;
+}
+
+.win-div a{
+  text-decoration: none;
+  color: white;
+  width: 30%;
+  padding: 10px;
+  z-index: 2;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
+
+.again {  
+  border: 1px solid  rgb(49, 49, 49,0.6);
+  background-color: rgba(102, 104, 109, 0.8);
+}
+
+.choose-character {  
+  border: 1px solid  rgba(38, 97, 206, 1);
+  background-color: rgba(38, 97, 206, 0.8);
+}
+
+.win-image {
+    position: absolute;
+    left: 0;
+    top: 8%;
+    width: 35%;
+}
+
+/* Health style configurations. */
+#health {
+  position: relative;
+  top: 35px; 
+  left: 20px; 
+  width: 370px;                               /* from 270 to 370 */ 
+  padding: 10px 5px 10px;
+  z-index: 5;
+  background-color: rgba(33, 34, 34, 0.9);
+  color: white;
+  border-radius: 20px;
+}
+
+#healthName {
+  display: inline;
+  padding-left: 5px;
+  font-family: "Berkshire Swash", cursive;
+  margin-top: 100px;
+}
+
+#healthBar {
+  position: relative;
+  width: 300px;                               /* from 200 to 300 */ 
+  display: inline-block;
+  background-color: rgb(21, 95, 21);
+  color: rgb(21, 95, 21);
+  border-radius: 20px;
+}
+
+/* Injecton style configurations. */
+#injection {
+  display : block;
+  position: absolute;
+  z-index: 5;
+}
+
+/* Resize win and lose screen for different screens size. */
+@media screen and (max-height: 700px) {
+  .win-div a {
+      width: 25%;
+  }
+
+  .win-image, .lose-image {
+    width: 30%;
+  }
+}
+
+.stone-img{
+  position: absolute;
+  display: none;
+  z-index: 4;
+}
+
+/* End Media Section */

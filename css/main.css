@@ -1,0 +1,47 @@
+/* Common CSS files */
+
+/*Start Body*/
+html{
+  margin:0;
+  height:100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Berkshire Swash", cursive;
+    overflow: hidden;
+    background-color:black;
+}
+/*End Body*/
+
+ /* Start Speaker Section */
+.speaker{
+    background: rgba(33, 34, 34, 0.9);
+    color: white;
+    position: absolute;
+    z-index: 5;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    top: 38px;
+    right: 50px;
+    padding-left: 0;
+}
+
+.speaker img {
+    margin: 7px;
+}
+/* End Speaker Section */
+
+/* Icon back */
+  #icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height:4px;
+    width:4px;
+}
+/* Icon back */

@@ -1,0 +1,62 @@
+/*set the background image */
+body {
+  background-image: url("../image/background/about.jpg");
+  background-attachment: fixed;
+}
+
+/*set the characterstics of the title*/
+.title {
+  background: rgba(172, 80, 59, 0.42);
+  color: black;
+  border-radius: 24px;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding-top: 10px;
+  width: 23%;
+  height: 50px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+#titleHeader {
+  margin-top: 2px;
+} /* top margin for the title */
+
+/* set characterstics for the about us article */
+.aboutUsArticle {
+  position: absolute;
+  animation-name: div;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  background: rgba(172, 80, 59, 0.42);
+  color: black;
+  border-radius: 24px;
+  text-align: center;
+  width: 30%;
+  height: 75%;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+/*make animation for the about us article*/
+@keyframes div {
+  from {
+    top: 0px;
+    right: 55px;
+  }
+  to {
+    top: 100px;
+    right: 55px;
+  }
+}
+/*make developers name appear without padding or margin*/
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

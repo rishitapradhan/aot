@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="icon" href="image/small-logo-with-shadow.png" type="image/icon type">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/game-story.css" type="">
+    <title>Attack On Titan</title>
+</head>
+
+<body>
+    <div class="mySlides fade">
+
+        <div class="slideshow-container">
+            <!-- logo icon in the right top position of the page 
+            when clicked, it leads to the main menu -->
+            <div class="logoIcon" id="icon"><a href="index.html"><img src="image/small-logo-with-shadow.png"></a></div>
+            <!-- ------------------------------------------- -->
+
+            <!-- Audio button in the left top position of the game
+            when clicked an audio palys -->
+            <div class="speaker">
+                <img src="image/no-sound.svg" id="sound" alt="speaker" width="35" height="35">
+            </div>
+            <!-- --------------------------------------------- -->
+
+            <!-- upper text in the first slide -->
+            <div class="fade" id="tell1">There was a city in a world where humanity lives ...</div>
+            <!-- ----------------------------- -->
+
+            <!-- show the number of the slide
+            you can see it on top of the logo -->
+            <div class="numbertext">1 / 16</div>
+            <!-- ---------------------------- -->
+
+            <!-- image in the first slide -->
+            <img id="immg" src="image/background/story/1.png">
+            <!-- ------------------------ -->
+
+            <!-- down text in the first slide -->
+            <div class="fade" id="tell2">Surrounded by enormous WALLS</div>
+            <!-- ---------------------------- -->
+
+        </div>
+        <!-- to make > shape -->
+        <a class="prev">&#10094;</a>
+        <!-- --------------- -->
+
+        <!-- to make < shape -->
+        <a class="next">&#10095;</a>
+        <!-- --------------- -->
+    </div>
+
+    <script src="js/jquery/jquery-3.5.1.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/game-story.js"></script>
+</body>
+
+</html>
